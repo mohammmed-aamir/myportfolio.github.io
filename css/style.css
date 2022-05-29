@@ -191,6 +191,7 @@ header .navbar ul li a:hover {
     justify-content: center;
     padding: 2rem 1rem;
     padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .about .row .info h3 {
@@ -237,6 +238,7 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .education .box-container .box {
@@ -293,6 +295,7 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .experience .box-container .box {
@@ -349,6 +352,7 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .projects .box-container .box {
@@ -416,6 +420,7 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .skills .box-container .box {
@@ -448,11 +453,12 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .certificates .box-container .box {
     display: flex;
-    width: 35rem;
+    width: 33rem;
     height: 4.5rem !important;
     margin: 1rem 1rem;
     background: #222;
@@ -478,7 +484,7 @@ header .navbar ul li a:hover {
 }
 
 .certificates .box-container .box:hover {
-    width: 35rem;
+    width: 33rem;
     height: 4.5rem !important;
     margin: 1rem 1rem;
     background: #222;
@@ -580,7 +586,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 950px;
+    max-width: 820px;
     position: relative;
     margin: auto;
 }
@@ -706,7 +712,19 @@ img {
         width: 100%;
     }
 
-    .portfolio .box-container .box {
+    .experience .box-container .box {
+        width: 100%;
+    }
+
+    .projects .box-container .box {
+        width: 100%;
+    }
+
+    .skills .box-container .box {
+        width: 100%;
+    }
+
+    .certificates .box-container .box {
         width: 100%;
     }
 
