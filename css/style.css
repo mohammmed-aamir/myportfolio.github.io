@@ -288,119 +288,6 @@ header .navbar ul li a:hover {
     background: var(--yellow);
 }
 
-.experience .box-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-.experience .box-container .box {
-    margin: 4rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid #fff;
-    position: relative;
-}
-
-.experience .box-container .box span {
-    font-size: 2.5rem;
-    background: #222;
-    color: #fff;
-    border-radius: 5rem;
-    padding: .5rem 2.5rem;
-}
-
-.experience .box-container .box h3 {
-    font-size: 3.2rem;
-    color: #fff;
-    padding-top: 1.5rem;
-}
-
-.experience .box-container .box p {
-    font-size: 2.7rem;
-    color: #eee;
-    padding: 1rem 0;
-}
-
-.experience .box-container .box p li {
-    font-size: 2.7rem;
-    color: #eee;
-    padding: 1rem 0;
-}
-
-.experience .box-container .box i {
-    position: absolute;
-    top: -1.5rem;
-    left: -2.5rem;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-    background: var(--yellow);
-}
-
-.projects .box-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-.projects .box-container .box {
-    margin: 4rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid #fff;
-    position: relative;
-}
-
-.projects .box-container .box span {
-    font-size: 2.5rem;
-    background: #222;
-    color: #fff;
-    border-radius: 5rem;
-    padding: .5rem 2.5rem;
-}
-
-.projects .box-container .box h3 {
-    font-size: 3.2rem;
-    color: #fff;
-    padding-top: 1.5rem;
-}
-
-.projects .box-container .box p {
-    font-size: 2.7rem;
-    color: #eee;
-    padding: 1rem 0;
-}
-
-.projects .box-container .box p li {
-    font-size: 2.7rem;
-    color: #eee;
-    padding: 1rem 0;
-}
-
-.projects .box-container .box i {
-    position: absolute;
-    top: -1.5rem;
-    left: -2.5rem;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-    background: var(--yellow);
-}
 
 .skills .outer-box {
     display: flex;
@@ -457,107 +344,54 @@ header .navbar ul li a:hover {
 }
 
 .certificates .box-container .box {
-    display: flex;
-    width: 33rem;
-    height: 4.5rem !important;
-    margin: 1rem 1rem;
-    background: #222;
-    color: #fff;
-    border-radius: 5rem;
-    padding: .5rem 2.0rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
     position: relative;
-    text-align: center !important;
-    vertical-align: middle;
-
-    justify-content: center;
-    align-items: center;
 }
 
 .certificates .box-container .box span {
-    justify-content: center;
-    align-items: center;
-}
-
-.certificates .box-container .box span a {
-    color: white !important;
-    font-size: 1.2rem;
-}
-
-.certificates .box-container .box:hover {
-    width: 33rem;
-    height: 4.5rem !important;
-    margin: 1rem 1rem;
+    font-size: 2.0rem;
     background: #222;
     color: #fff;
     border-radius: 5rem;
-    padding: .5rem 2.0rem;
-    position: relative;
-    text-align: center !important;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    border: .1rem solid var(--yellow);
+    padding: .5rem 2.5rem;
+    /* margin: 2rem 0rem; */
+    /* margin-bottom: 5rem; */
 }
 
-.contact .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contact .row .content {
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
-}
-
-.contact .row form {
-    flex: 1 1 45rem;
-    padding: 2rem;
-    margin: 6rem;
-    margin-bottom: 4rem;
-}
-
-.contact .row form .box {
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: #3333;
+.certificates .box-container .box h3 {
+    font-size: 3.0rem;
     color: #fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width: 100%;
+    padding-top: 1.5rem;
 }
 
-.contact .row form .box::placeholder {
-    text-transform: capitalize;
+.certificates .box-container .box p {
+    font-size: 1.5rem;
+    color: #eee;
+    padding: 0.5rem 0;
 }
 
-.contact .row form .message {
-    height: 15rem;
-    resize: none;
-}
-
-.contact .row .content .title {
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 3rem;
-    padding-bottom: 2rem;
-}
-
-.contact .row .content .info h3 {
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
+.certificates .box-container .box p li {
+    font-size: 2.7rem;
     color: #eee;
     padding: 1rem 0;
-    font-weight: normal;
 }
 
-.contact .row .content .info h3 i {
-    padding-right: 1rem;
-    color: var(--yellow);
+.certificates .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
 }
+
 
 .top {
     position: fixed;
